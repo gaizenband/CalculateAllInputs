@@ -8,13 +8,12 @@ const init = () => {
     result.innerHTML = 0;
 
     const sum = () => {
-        const newArray = [];
+        let value = 0;
 
         allInputs.forEach(function(i){          
-            newArray.push(+i.value);
 
-            let value = newArray.reduce((acc, cur) => acc + cur);
-
+            value += +i.value;
+             
             result.innerHTML = +value;
         })
     };
