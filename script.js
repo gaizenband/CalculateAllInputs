@@ -4,8 +4,6 @@ const init = () => {
     const oneInput = document.querySelector('div');
 
     const allInputs = Array.from(inputs);
-    
-    result.innerHTML = 0;
 
     const sum = () => {
         let value = 0;
@@ -19,6 +17,7 @@ const init = () => {
     };
     
     oneInput.addEventListener('input', sum);
+    window.addEventListener('load', sum);
 };
 
 document.addEventListener('DOMContentLoaded', init);
