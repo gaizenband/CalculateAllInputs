@@ -1,0 +1,26 @@
+* {
+    font-family: sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+}
+
+input {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper > * {
+    height: 30px;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
