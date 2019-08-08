@@ -5,6 +5,8 @@ const init = () => {
 
     const allInputs = Array.from(inputs);
 
+    result.innerHTML = 0;
+
     const sum = () => {
         let value = 0;
 
